@@ -2,6 +2,13 @@
 
 https://cp-analysis.vercel.app/
 
+# Project Discription:
+
+A app built using ReactJs to help you to analyse your CodeForces Competitive Programming journey till now.
+with the help of beautilful graphs for various data built using ChartJS.
+Your CodeForces data is fetched from CodeforcesAPI.
+
+HAPPY CODING!
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
