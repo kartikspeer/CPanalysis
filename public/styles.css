@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #DDEDF4;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  width: 100%;
+  margin: 0px;
+  /* padding: 0 16px; */
+  /* text-align: center; */
+  /* overflow-x: hidden; */
+}
+
+header {
+  /* background-color: transparent; */
+  background-color: #212221;
+  align-items: center;
+  /* justify-content: center; */
+  display: flex;
+  width: 100%;
+  margin: auto ;
+  padding-top:8px ;
+  padding-bottom: 8px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  text-align: center;
+  font-family: "McLaren";
+  font-weight: 200;
+  font-family: 'Philosopher', sans-serif;
+  /* margin-right: 90px; */
+}
+
+.Login{
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  /* border:  3px solid #f1f1f1; */
+  color: #fff;
+  margin-right: 35%;
+  margin-left: 35%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  background-color: #1181B2;
+  padding: 16px;
+  border-radius: 15px;
+  font-family: 'Mitr', sans-serif;
+}
+
+input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+button{
+  background-color: #44449B;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 3px;
+  font-size: 1em;
+}
+button:hover{
+  opacity: 0.8;
+}
+.IntroContainer{
+  text-align: center;
+  margin: 20px 0 12px 0;
+  font-weight: 300;
+}
+.container{
+  padding: 16px;
+}
+.logOutBtn{
+  margin-left: 73%;
+  margin-right: 2%;
+}
+.image{
+  display: block;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 2%;
+  /* margin:auto; */
+  /* border-radius: 50%; */
+}
+
+.main-area{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Josefin Sans', sans-serif;
+  /* border: 2px solid red; */
+}
+
+.userInfo {
+  padding: 16px;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 38px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.userData{
+  width: 60%;
+}
+.userData h1{
+  font-weight: lighter;
+  color: red;
+}
+.name{
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #082340;
+}
+.userData h2{
+  font-weight: normal;
+}
+
+.userData span{
+  font-size: 1.2rem;
+}
+
+.divider{
+  width: 20%;
+}
+
+.userImage{
+  width: 20%;
+  background-size: 100% 220px;
+  background-repeat: no-repeat;
+  height: 220px;
+  border: 2px solid #555;
+  /* background-position: center; */
+}
+
+/* .userImage img{
+  width: 100%;
+  height: 100%;
+  border: 3px solid #555;
+} */
+
+
+.chart-area {
+  /* position: relative; */
+  height: 50vh;
+  width: 100vw;
+  font-size: 1.2rem;
+  /* border: 2px solid green; */
+}
+
+footer {
+  background-color: #4FA8C2;
+  /* margin: auto -16px; */
+  justify-content: center;
+  position: fixed;
+  text-align: center;
+  left:0;
+  bottom: 0;
+  width: 100%;
+  /* top: 90%; */
+  height: 3rem;
+  text-align: center;
+  padding-top:16px ;
+  padding-bottom: 1px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+  
+}
+
+footer p {
+  color: #212221;
+  font-family: 'Mitr', sans-serif;
+}
+
+
+
+
